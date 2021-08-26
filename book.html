@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="themedcafe,cafe,gudentama,GudentamaVN,Dinning">
+        <meta name="description" content="Chiếc cafe với nhân vật chủ đạo là Gudentma">
+        <meta http-equiv="REFRESH" content="3000">
+        <title>GudentamaVN - Cafe & Dinning</title>
+        <link href="https://soranews24.com/wp-content/uploads/sites/3/2017/10/gc-10.png" rel="shortcut icon" />
+        <script src="https://kit.fontawesome.com/18bf94df79.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styleb.css" />
+        <link rel="stylesheet" href="css/tableabout.css" media="screen and (max-width:900px)" />
+        <link rel="stylesheet" href="css/mobileabout.css" media="screen and (max-width:500px)" />
+    </head>
+    <body>
+         <script>
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    if($(this).scrollTop()) {
+                        $('header').addClass('sticky');
+                    }
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#bar").click(function(){
+                    $("nav").slideToggle();   
+                })
+                $(window).scroll(function(){
+                    if($(this).scrollTop() >= 100){
+                        $('#btt').fadeIn()
+                    }else{
+                        $('#btt').fadeOut()
+                    }
+                })
+                $("#btt").click(function(){
+                    $('html,body').animate({
+                        scrollTop: 0
+                    }, 500);
+                });
+            });
+        </script>
+        <div id="wrapper">
+            <header>
+                <div id="bar">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="myheader">
+                    <img class="logo" src="images/logo.PNG" alt="logo" width="95vw" height="85vw">
+                    <nav>
+                        <ul id="main-menu">
+                            <li><a href=""><i class="fas fa-home"></i>Trang chủ</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Đặt bàn</a></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div id="content" class="container">
+            <h1>ĐẶT BÀN</h1>
+            <h2>Nhằm mục đích cung cấp trải nghiệm tại quán tốt nhất quý khách nếu đi với nhóm trên 7 người/tổ chức tiệc họp mặt, sinh nhật đặc biệt vào các ngày vui lòng đặt bàn</h2>
+        </div>
+        <div id="btt">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <div class="myfooter">
+            <footer>
+                <p>
+                    <i class="fas fa-coffee"></i>GudentmaVN - Cafe and Dinning
+                    <br> &copy;Trang wed được thiết kế bởi Cao Nguyên Thụy và Ngô Thị Kim Tài
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

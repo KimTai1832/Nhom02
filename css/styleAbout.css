@@ -1,0 +1,116 @@
+html{
+    max-height: 60%;
+    margin: 0%;
+}
+header{
+    position:fixed;
+    width: 100%;
+}
+.container{
+    margin: 0px auto;
+    max-width: 960px;
+}
+ul{
+    list-style: none;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+#bar{
+    display: none;
+    background-color: gold;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+}
+nav{
+    display: block
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.myheader{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: gold;
+}
+ul#main-menu{
+    display: flex;
+    padding: 10px;
+}
+ul#main-menu a{
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: black;
+    display: block;
+    font-size: 1.75vw;
+} 
+#banner {
+    background: url(../images/banner.JPG);
+    min-height: 480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+#content h1{
+    padding: 30px 0px;
+    text-align: center;
+}
+#content p{
+    font-size: x-large;
+}
+.hinhanh img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    height: 360px;
+}
+.hinhanh1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 640px;
+}
+.hinhanh p{
+    display: block;
+    text-align: center;
+    font-size: xx-small;
+    color: darkgrey;
+}
+footer{
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.myfooter{
+    display: block;
+    width: 100%;
+    position:relative;
+    bottom: 0;
+    background-color: gold;
+}
+#btt{
+    background: gold;
+    color: black;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0.5%;
+    right: 0.5%;
+    border: black solid;
+    cursor: pointer;
+    z-index: 9999;
+}
