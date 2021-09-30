@@ -40,11 +40,8 @@ ul#main-menu a:hover{
 .hinhanh img{
     width: 100%;
 }
-.hinhanh1 img{
-    width: 100%;
-}
-.hinhanh p{
+.hinhanh h2{
     text-align: center;
-    font-size: 1vw;
+    font-size: 3vw;
     color: lightgray;
 }
